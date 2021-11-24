@@ -13,6 +13,7 @@
 		C7BBC6C326914D280099AC04 /* hyuabotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BBC6AF26914D240099AC04 /* hyuabotApp.swift */; };
 		C7BBC6C626914D280099AC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BBC6B126914D280099AC04 /* Assets.xcassets */; };
 		C7BBC6C726914D280099AC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BBC6B126914D280099AC04 /* Assets.xcassets */; };
+		C7BD78EF274E2CE2007D4E63 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BD78EE274E2CE2007D4E63 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C7BBC6BE26914D280099AC04 /* hyuabot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hyuabot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BBC6C026914D280099AC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7BBC6C126914D280099AC04 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C7BD78EE274E2CE2007D4E63 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		C7BBC6AE26914D240099AC04 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C7BD78ED274E29DE007D4E63 /* Pages */,
 				C7BBC6AF26914D240099AC04 /* hyuabotApp.swift */,
 				C7A52948274E0AE2006ABE26 /* ContentView.swift */,
 				C7BBC6B126914D280099AC04 /* Assets.xcassets */,
@@ -91,6 +94,14 @@
 				C7BBC6C126914D280099AC04 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		C7BD78ED274E29DE007D4E63 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD78EE274E2CE2007D4E63 /* MenuView.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7A52949274E0AE2006ABE26 /* ContentView.swift in Sources */,
+				C7BD78EF274E2CE2007D4E63 /* MenuView.swift in Sources */,
 				C7BBC6C226914D280099AC04 /* hyuabotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
