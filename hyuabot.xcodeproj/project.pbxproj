@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C7A52944274DF797006ABE26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7A52946274DF797006ABE26 /* InfoPlist.strings */; };
+		C7A52949274E0AE2006ABE26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A52948274E0AE2006ABE26 /* ContentView.swift */; };
 		C7BBC6C226914D280099AC04 /* hyuabotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BBC6AF26914D240099AC04 /* hyuabotApp.swift */; };
 		C7BBC6C326914D280099AC04 /* hyuabotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BBC6AF26914D240099AC04 /* hyuabotApp.swift */; };
-		C7BBC6C426914D280099AC04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BBC6B026914D240099AC04 /* ContentView.swift */; };
-		C7BBC6C526914D280099AC04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BBC6B026914D240099AC04 /* ContentView.swift */; };
 		C7BBC6C626914D280099AC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BBC6B126914D280099AC04 /* Assets.xcassets */; };
 		C7BBC6C726914D280099AC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BBC6B126914D280099AC04 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -19,8 +18,8 @@
 /* Begin PBXFileReference section */
 		C7A52945274DF797006ABE26 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7A52947274DF7A6006ABE26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7A52948274E0AE2006ABE26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7BBC6AF26914D240099AC04 /* hyuabotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyuabotApp.swift; sourceTree = "<group>"; };
-		C7BBC6B026914D240099AC04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7BBC6B126914D280099AC04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7BBC6B626914D280099AC04 /* hyuabot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hyuabot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BBC6B926914D280099AC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				C7BBC6AF26914D240099AC04 /* hyuabotApp.swift */,
-				C7BBC6B026914D240099AC04 /* ContentView.swift */,
+				C7A52948274E0AE2006ABE26 /* ContentView.swift */,
 				C7BBC6B126914D280099AC04 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -193,7 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7BBC6C426914D280099AC04 /* ContentView.swift in Sources */,
+				C7A52949274E0AE2006ABE26 /* ContentView.swift in Sources */,
 				C7BBC6C226914D280099AC04 /* hyuabotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,7 +201,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7BBC6C526914D280099AC04 /* ContentView.swift in Sources */,
 				C7BBC6C326914D280099AC04 /* hyuabotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
