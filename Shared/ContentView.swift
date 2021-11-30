@@ -19,7 +19,7 @@ struct ContentView : View{
                 Image(systemName: "fork.knife")
                 Text("학식")
             })
-            Text("메뉴").tabItem({
+            MenuTab().tabItem({
                 Image(systemName: "list.dash")
                 Text("메뉴")
             })
